@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
+}
+.header {
+  background-color: #f3fcf7;
+  height: 662.05px;
+  max-width: 1440px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 130px 50px 130px;
+}
+.logo {
+  color: #06c167;
+  font-size: 32px;
+}
+.nav_items {
+  width: 600px;
+  margin: top right;
+  justify-content: space-evenly;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+.Home {
+  color: #06c167;
+}
+.food-title {
+  display: flex;
+}
+.foofd-ditails {
+  padding: 110px 130px 130px;
+}
+.foofd-ditails h1 {
+  width: 530px;
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.foofd-ditails p {
+  width: 534px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+button {
+  width: 200px;
+  height: 60px;
+  background-color: #06c167;
+  color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid #06c167;
+}
+.button i {
+  margin-left: 20px;
+}
+.img-01 {
+  width: 470px;
+  margin-right: 800px;
+}
+.image-1 {
+  border: 1px solid transparent;
+  max-width: 470px;
+  height: 100%;
+}
