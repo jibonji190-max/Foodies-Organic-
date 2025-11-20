@@ -6,19 +6,20 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Inter", sans-serif;
 }
-.header {
+/* hero section Start */
+header {
   background-color: #f3fcf7;
-  height: 662.05px;
   max-width: 1440px;
+  margin-bottom: 100px;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 130px 50px 130px;
+  padding: 40px 135px;
 }
 .logo {
   color: #06c167;
@@ -46,20 +47,21 @@ nav ul li a {
 .food-title {
   display: flex;
 }
-.foofd-ditails {
-  padding: 110px 130px 130px;
+.food-ditails {
+  padding-left: 135px;
+  margin-top: 115px;
 }
-.foofd-ditails h1 {
+.food-ditails h1 {
   width: 530px;
-  font-size: 70px;
+  font-size: 75px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-.foofd-ditails p {
+.food-ditails p {
   width: 534px;
   height: 45px;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 button {
   width: 200px;
@@ -71,14 +73,74 @@ button {
   border: 1px solid #06c167;
 }
 .button i {
-  margin-left: 20px;
 }
-.img-01 {
-  width: 470px;
-  margin-right: 800px;
+.hero_img {
+  margin-top: 65px;
+  margin-right: 157px;
+  margin-left: 120px;
+  gap: 127px;
 }
-.image-1 {
-  border: 1px solid transparent;
-  max-width: 470px;
-  height: 100%;
+
+/* hero section End */
+
+/* Main Section Start  */
+
+/* Partners Service start */
+main {
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.partner {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  width: 1200px;
+}
+/* .pr-15 {
+  padding-right: 40px;
+}
+.pr-12 {
+  padding-left: 40px;
+} */
+
+.service {
+  width: 1170px;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+  display: flex;
+  justify-content: space-between;
+}
+.service-items{
+  width: 209px;
+  height: 70px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.services {
+  display: flex;
+}
+.service-logo {
+  width: 70px;
+  height: 70px;
+  background-color: #f3fcf7;
+}
+.service-logo i{
+  color: #06C167;
+  font-size: 32px;
+  align-items: center;
+  margin:20px 20px;
+}
+.services-ditails {
+    padding-left: 22px;
+}
+.services-ditails h3 {
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 13px;
+}
+.services-ditails p {
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 7px;
 }
