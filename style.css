@@ -226,7 +226,7 @@ main {
 }
 /* star ditails Star */
 
-    /* features start  */
+/* features start  */
 .features {
   margin-top: 174px;
 }
@@ -282,3 +282,64 @@ main {
   border-radius: 0px;
 }
 /* features start  */
+
+.popular-product {
+  margin-top: 191px;
+}
+.most-popular h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.product-card {
+  margin-top: 62px;
+  display: flex;
+}
+.card {
+  width: 270px;
+  height: 444px;
+  background-color: #ffffff;
+  border: 1px solid #767675;
+  text-align: center;
+  border-radius: 20px;
+  padding: 25px 40px;
+}
+.card:hover {
+  border: 1px solid #06c167;
+}
+.card img {
+  width: 190px;
+  height: 190px;
+}
+.star {
+  color: #06c167;
+}
+.card h3 {
+  font-size: 20px;
+  font-weight: 120;
+}
+.price .price1 {
+  color: #767675;
+  text-decoration: line-through;
+}
+.price .price2 {
+  color: #06c167;
+  font-size: 20px;
+}
+.product-buy {
+  background-color: #ffffff;
+  border: 1px solid #06c167;
+  border-radius: 15px;
+  width: 177px;
+  height: 56px;
+  color: #06c167;
+}
+.product-buy span {
+  padding-right: 32px;
+}
+.pb-24 {
+  padding-bottom: 24px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
