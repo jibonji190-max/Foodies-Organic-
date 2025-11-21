@@ -352,12 +352,79 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.suggesed{
+.suggesed {
   padding: 110px 190px 84px;
   text-align: center;
 }
 .suggesed h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 60px;
   width: 800px;
+}
+
+.bottom {
+  width: 1440px;
+  height: 432.38px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.bottom-bar {
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.pd-top {
+  padding-top: 80px;
+}
+.font {
+  /* font-size: 16px; */
+  font-weight: 550;
+}
+.resturent h2 {
+  font-size: 32px;
+  color: #06c167;
+  margin-bottom: 40px;
+}
+.resturent p {
+  width: 284px;
+  margin-bottom: 50px;
+}
+.icon .pr-100 {
+  padding-right: 25px;
+}
+.about-us ul {
+  list-style: none;
+  padding-top: 40px;
+}
+.pb-space {
+  padding-bottom: 15px;
+}
+
+.company ul {
+  list-style: none;
+  padding-top: 40px;
+}
+.email p {
+  width: 338px;
+  padding-top: 40px;
+}
+.email input {
+  width: 205px;
+  height: 50px;
+  background-color: #f0f1ec;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+.email ::placeholder {
+  padding-left: 20px;
+}
+.email button {
+  width: 118px;
+  height: 50px;
+}
+.copy {
+  margin-top: 90px;
+  font-size: 16px;
+  text-align: center;
 }
