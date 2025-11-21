@@ -283,6 +283,7 @@ main {
 }
 /* features start  */
 
+/* popular product start */
 .popular-product {
   margin-top: 191px;
 }
@@ -342,4 +343,21 @@ main {
 }
 .mr-30 {
   margin-right: 30px;
+}
+/* popular product End */
+.suggesion {
+  margin-top: 190px;
+  height: 460px;
+  background-image: url(./Food.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.suggesed{
+  padding: 110px 190px 84px;
+  text-align: center;
+}
+.suggesed h1 {
+  color: #FFFFFF;
+  font-size: 60px;
+  width: 800px;
 }
