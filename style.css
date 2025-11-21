@@ -225,6 +225,8 @@ main {
   height: 512px;
 }
 /* star ditails Star */
+
+    /* features start  */
 .features {
   margin-top: 174px;
 }
@@ -252,6 +254,7 @@ main {
 .veriety-food-items .img {
   width: 292px;
   height: 292px;
+  border: 1px solid #06c167;
 }
 .verity-ditails {
   background-color: #f3fcf7;
@@ -260,6 +263,7 @@ main {
   padding-left: 24px;
   padding-top: 36px;
   padding-right: 24px;
+  border: 1px solid #06c167;
 }
 .verity-ditails h2 {
   font-size: 32px;
@@ -277,3 +281,4 @@ main {
   border: 1px solid #e6f9f0;
   border-radius: 0px;
 }
+/* features start  */
