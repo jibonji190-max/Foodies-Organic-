@@ -72,8 +72,7 @@ button {
   border-radius: 10px;
   border: 1px solid #06c167;
 }
-.button i {
-}
+
 .hero_img {
   margin-top: 65px;
   margin-right: 157px;
@@ -226,3 +225,55 @@ main {
   height: 512px;
 }
 /* star ditails Star */
+.features {
+  margin-top: 174px;
+}
+.features .feature-titles {
+  text-align: center;
+}
+.features span {
+  background-color: #f3fafb;
+  color: #06c167;
+  padding: 15px 24px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.features h1 {
+  font-size: 60px;
+  font-weight: 478;
+  margin-top: 12px;
+}
+.veriety-food-items {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+.veriety-food-items .img {
+  width: 292px;
+  height: 292px;
+}
+.verity-ditails {
+  background-color: #f3fcf7;
+  width: 292px;
+  height: 292px;
+  padding-left: 24px;
+  padding-top: 36px;
+  padding-right: 24px;
+}
+.verity-ditails h2 {
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 26px;
+}
+.verity-ditails p {
+  width: 210px;
+}
+.variety-button {
+  background-color: #e6f9f0;
+  color: #06c167;
+  width: 148px;
+  height: 41px;
+  border: 1px solid #e6f9f0;
+  border-radius: 0px;
+}
