@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 135px;
+  padding: 24px 130px;
 }
 .logo {
   color: #06c167;
@@ -36,10 +36,17 @@ nav ul {
   gap: 30px;
   font-size: 16px;
 }
+
 nav ul li a {
   text-decoration: none;
   font-size: 16px;
   color: black;
+}
+nav ul li a:hover {
+  background-color: red;
+}
+.menu-icon {
+  display: none;
 }
 .Home {
   color: #06c167;
@@ -348,7 +355,7 @@ main {
 .suggesion {
   margin-top: 190px;
   height: 460px;
-  background-image: url(./Food.png);
+  background-image: url(./Photo/Food.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -425,4 +432,48 @@ main {
   margin-top: 90px;
   font-size: 16px;
   text-align: center;
+}
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  body {
+    max-width: 575px;
+  }
+  header {
+    max-width: 575px;
+    background-color: #f3fcf7;
+    margin: 0 auto;
+  }
+  .navbar {
+    padding: 0px;
+  }
+  .logo {
+    margin: 24px 30px;
+  }
+  .navbar .logo {
+    width: 120px;
+    height: 39px;
+  }
+  .nav_items {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    font-size: 35px;
+    color: #06c167;
+    margin: 24px 30px;
+  }
+  .food-title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 320px;
+  }
+  .food-ditails {
+    padding-left: 0;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+  }
 }
