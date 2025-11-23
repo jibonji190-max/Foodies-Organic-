@@ -476,4 +476,71 @@ main {
     align-items: center;
     text-align: center;
   }
+  .button {
+    margin-top: 10px;
+    height: 68px;
+  }
+  .button .special {
+    width: 100%;
+  }
+  .hero_img img {
+    padding-left: 30px;
+  }
+  main {
+    padding-left: 0px;
+  }
+  .partner {
+    max-width: 576px;
+    height: 87px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+  }
+  .partner img {
+    width: 123px;
+    height: 29px;
+  }
+  .pr-1 {
+    display: none;
+  }
+  .pr-16 {
+    justify-content: center;
+  }
+  .service {
+    max-width: 576px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .benefit {
+    max-width: 576px;
+    margin-top: 40px;
+  }
+  .our-benefit {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .benefit-ditails {
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .our-star {
+    margin-top: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .star-ditalis p h1 {
+    width: 350px;
+  }
+  .feedbacks {
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback p {
+  }
 }
